@@ -3,7 +3,7 @@
 _0RBIT = "WSXUI2JjYUldJ7CKq9wE1MGwXs-ldzlUlHOQszwQe0s"
 
 Handlers.add("innowizzy077"),
-    Handlers.utils.hasMatchingTag("Action", "innocent"),
+    Handlers.utils.hasMatchingTag("Action", "innowizzy077"),
     function(msg)
         local token = msg.Tags.Token 
         local currency = msg.Tags.Currency
@@ -16,4 +16,3 @@ Handlers.add("innowizzy077"),
         Handlers.utils.reply("PriceFetch")(msg)
     end
 )
-
